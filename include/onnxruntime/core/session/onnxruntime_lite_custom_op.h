@@ -8,7 +8,7 @@
 // 1. Tensor of onnx data types.
 // 2. Span of onnx data types.
 // 3. Scalar of onnx data types.
-// A input could be optional if indicated as std::optional<...>.
+// An input could be optional if indicated as std::optional<...>.
 // For an output, it must be a tensor of onnx data types.
 // Further, the header also has utility for a simple custom struct, where resources could be kept, to be registered as a custom op.
 // For concrete examples, please search keyword "LiteCustomOpTest" under "<cloned_src_dir>/onnxruntime/test/".
